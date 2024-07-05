@@ -1,12 +1,12 @@
 FROM ubuntu:20.04
 
-USER root
-
 RUN apt update -y
 
 RUN apt install  openjdk-11-jdk -y
 
 WORKDIR /opt/tomcat
+
+EXPOSE 8080 
 
 ADD https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.90/bin/apache-tomcat-9.0.90.tar.gz  /opt/tomcat
 
