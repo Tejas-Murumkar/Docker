@@ -1,5 +1,7 @@
 FROM mariadb
 
+LABEL database = "studentapp"
+
 WORKDIR /usr/local/bin/
 
 ENV MARIADB_ROOT_PASSWORD=1234
