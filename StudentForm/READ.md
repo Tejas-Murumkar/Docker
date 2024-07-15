@@ -67,4 +67,4 @@ docker run -itd -p 80:80 nginx:n1
 
 ### Step 4: Copy the public ip and host it 
 
-<publicip>/student
+"publicip"/student
