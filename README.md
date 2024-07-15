@@ -13,7 +13,7 @@ docker images
 docker run -itd -p <proxy_port>:<internal_port> --name <name_for_container> <images-name>:<version>
 ````
 where,
--i -> interactive
+-i -> interactive<br>
 -t -> terminal
 -d -> detach 
 -p -> port
