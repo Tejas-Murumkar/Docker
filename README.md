@@ -12,13 +12,13 @@ docker images
 ````
 docker run -itd -p <proxy_port>:<internal_port> --name <name_for_container> <images-name>:<version>
 ````
-where,
+where,<br>
 -i -> interactive<br>
--t -> terminal
--d -> detach 
--p -> port
---name -> name for container 
-4.
+-t -> terminal<br>
+-d -> detach<br> 
+-p -> port<br>
+--name -> name for container<br> 
+4.<br>
 a. To List the running containers
 ````
 docker ps
