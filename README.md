@@ -1,4 +1,20 @@
-# Docker Commands 
+# Docker 
+
+##  ${\color{lightblue} \textbf{Installation-Steps  \ (Amazon-Linux)}}$ 
+
+
+````
+sudo yum update -y
+sudo yum install -y docker
+sudo service docker start
+sudo usermod -a -G docker ec2-user
+newgrp docker
+````
+````
+docker --version
+````
+
+ ## ${\color{lightblue} \textbf{Installation-Steps  \ (Docker Commands)}}$ 
 
 1. To Pull the image form dockerhub
  ````
